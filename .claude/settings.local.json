@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(python --version)",
+      "PowerShell(.\\\\venv\\\\Scripts\\\\Activate.ps1; python -c \"import sys; print\\(sys.prefix\\)\")",
+      "PowerShell(pip install *)",
+      "PowerShell(.\\\\venv\\\\Scripts\\\\Activate.ps1; python expense-tracker/app.py)",
+      "Bash(python app.py)",
+      "Bash(git init *)",
+      "Bash(git add *)"
+    ]
+  }
+}
